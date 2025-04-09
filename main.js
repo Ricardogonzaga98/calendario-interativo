@@ -38,11 +38,16 @@ for (let i = 0; i < elementos.length; i++ ){
     var corEstilo = estilo.backgroundColor;
     // Verifica a cor e incrementa contador
     correspondente
-    if(corEstilo === "rgb(173,216,230)" || corEstilo === "lightblue"){
+    if(corEstilo === "rgb(173,216,230)" || corEstilo === "lightBlue"){
      contadorAzul ++;
     } else if (corEstilo === "rgb(152, 215, 152)" || corEstilo === "palegreen"){
         contadorVerde++;
-    } else if ()
+    } else if (corEstilo === "rgb(255, 182, 193)" || corEstilo === "lightPink"){
+        contadorRosa++;
+
+    } else if (corEstilo === "rgb(106, 90, 205)" || corEstilo === "slteBlue") {
+        contadorRoxo++;
+    }
     
     
     }
