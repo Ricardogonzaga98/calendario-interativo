@@ -42,7 +42,7 @@ function colorirDia(){
         //verifica a cor e incrementa contador correspondente
         if(corEstilo === 'rgb(173, 216, 230)' || corEstilo === 'lightblue'){
             contadorAzul++;
-            console.log(contadorAzul);
+            console.log("Azul: "+contadorAzul);
         }else if(corEstilo === 'rgb(152, 215, 152)' || corEstilo === 'palegreen'){
             contadorVerde++;
             console.log(contadorVerde);
