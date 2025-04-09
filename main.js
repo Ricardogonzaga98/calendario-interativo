@@ -42,12 +42,16 @@ function colorirDia(){
         //verifica a cor e incrementa contador correspondente
         if(corEstilo === 'rgb(173, 216, 230)' || corEstilo === 'lightblue'){
             contadorAzul++;
+            console.log(contadorAzul);
         }else if(corEstilo === 'rgb(152, 215, 152)' || corEstilo === 'palegreen'){
             contadorVerde++;
+            console.log(contadorVerde);
         }else if(corEstilo === 'rgb(255, 182, 193)' || corEstilo === 'lightpink'){
             contadorRosa++;
+            console.log(contadorRosa);
         }else if(corEstilo === 'rgb(106, 90, 205)' || corEstilo === 'slateblue'){
             contadorRoxo++;
+            console.log(contadorRoxo);
         }        
 
         
